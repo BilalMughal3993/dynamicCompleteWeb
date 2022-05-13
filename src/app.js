@@ -1,6 +1,8 @@
 const express =require("express");
-const res = require("express/lib/response");
 const app=express();
+
+// require("./db/conn");
+
 const port = process.env.PORT||3000;
 
 //ROUTING
