@@ -1,9 +1,18 @@
 const express =require("express");
+const path = require("path");
+
 const app=express();
 
-// require("./db/conn");
+require("./db/conn");
 
 const port = process.env.PORT||3000;
+
+
+//setting the path 
+const staticpath = path.join(__dirname,"../public")
+
+//middleware for path
+app.use(express.static(staticpath))
 
 //ROUTING
 //app.get(path,callback)
