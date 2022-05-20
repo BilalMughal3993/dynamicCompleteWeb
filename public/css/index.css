@@ -40,7 +40,7 @@ h3 {
 #logo {
   display: initial;
   font-weight: bold;
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   letter-spacing: 1px;
   text-transform: capitalize;
   color: #ec615b;
@@ -63,7 +63,7 @@ h3 {
 /* our hero sections  */
 
 .hero-text h1 {
-  font-size: 5.5rem;
+  font-size: 4rem;
   line-height: 1.5;
   text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
   letter-spacing: 1px;
@@ -107,6 +107,7 @@ label {
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
   transition: 0.5s all;
+  border-radius: 10px;
 }
 
 /* about us style starts  */
@@ -118,7 +119,7 @@ label {
 .about-style .main-heading,
 .service-style .main-heading,
 .contact-style .main-heading {
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #ec615b;
   letter-spacing: 1px;
   font-weight: bold;
